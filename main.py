@@ -1,7 +1,11 @@
 from typing import List
 # Skeleton code for even_list
 def even_list(int_list: List[int]) -> List[int]:
-
+    even_numbers = []
+    for num in int_list:
+        if num % 2 == 0:
+            even_numbers.append(num) 
+    return even_numbers
     # TODO: Implement even_list
 
 # Skeleton code for sum_of_squares_of_even
